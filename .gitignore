@@ -12,27 +12,41 @@ target/
 *.iml
 *.ipr
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# === Build files ===
+/target/
+*.class
+*.jar
+*.war
+*.ear
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Workspace metadata (à ne pas versionner)
+.metadata/
 
-### VS Code ###
-.vscode/
+# === Temporary & backup files ===
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
 
-### Mac OS ###
+# === OS-specific ===
 .DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Test reports ===
+/test-output/
+/surefire-reports/
+/cucumber-reports/
+/extent-reports/
+
+# === Configuration files ===
+.env
+config/
+*.properties
+
+# === Java error logs ===
+hs_err_pid*.log

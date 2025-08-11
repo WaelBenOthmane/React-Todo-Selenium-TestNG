@@ -5,17 +5,17 @@
   <test name="D:/Intellig_Projects/Selenium Pure/Selenium-TestNG(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.todos.tests.AddTodoTest">
-        <methods>
-          <include name="setupTest"/>
-          <include name="cleanTest"/>
-        </methods>
-      </class> <!-- com.todos.tests.AddTodoTest -->
       <class name="com.todos.tests.RemoveTodoTest">
         <methods>
+          <include name="setupTest"/>
           <include name="verifElementIsDeleted"/>
         </methods>
       </class> <!-- com.todos.tests.RemoveTodoTest -->
+      <class name="com.todos.tests.AddTodoTest">
+        <methods>
+          <include name="entersText"/>
+        </methods>
+      </class> <!-- com.todos.tests.AddTodoTest -->
     </classes>
   </test> <!-- D:/Intellig_Projects/Selenium Pure/Selenium-TestNG(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
