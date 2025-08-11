@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="D:/Intellig_Projects/Selenium Pure/Selenium-TestNG(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.todos.tests.AddTodoTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="cleanTest"/>
+        </methods>
+      </class> <!-- com.todos.tests.AddTodoTest -->
+      <class name="com.todos.tests.RemoveTodoTest">
+        <methods>
+          <include name="verifElementIsDeleted"/>
+        </methods>
+      </class> <!-- com.todos.tests.RemoveTodoTest -->
+    </classes>
+  </test> <!-- D:/Intellig_Projects/Selenium Pure/Selenium-TestNG(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
